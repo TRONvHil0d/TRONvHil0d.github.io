@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
@@ -129,3 +130,136 @@ header a:hover{
 }
 
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1b1146c1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    user-select: none;
+    margin-top: -20px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    gap: 48px;
+}
+
+header a{
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #ebebeb;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header a:hover{
+    transition: all 0.3s;
+    color: #f4d0a2;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 100px;
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+.main-page{
+    user-select: none;
+    float: left;
+    width: 1000px;
+    height: 600px;
+    background-color: transparent;
+    border-radius: 6px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border-style: groove;
+    border-color: #8DA2AF;
+}
+
+
+.main-page h1{
+    text-align: left;
+    user-select: none;
+    font-size: 45px;
+    color: white;
+    font-family:monospace;
+    margin-left: 90px;
+    margin-top: 190px;
+    width: 400px;
+}
+.main-page h3{
+    text-align: left;
+    user-select: none;
+    font-size: 20px;
+    color: white;
+    font-family:monospace;
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.footer{ 
+    float: left;
+    margin-top: 378px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+}
+.main-page img{
+    width: 300px;
+    height: 300px;
+    margin-left: 600px;
+    margin-top: -250px;
+    border-radius: 50%;
+
+}
+
+.main-page button{
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: monospace;
+    width: 100px;
+    height: 30px;
+    background-color: #b4d4f4;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    color: rgb(19, 19, 19);
+}
+.main-page button:hover{
+    transition: 0.6s;
+    background-color: rgb(79, 142, 219);
+    color: whitesmoke;
+}
+
+
+>>>>>>> 06688ce (test)
